@@ -1,0 +1,48 @@
+/* universal selector (denoted by *) */
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(29, 21, 21), rgb(97, 83, 83), rgb(20, 20, 12)); ;
+    background-size:cover;
+    }
+/* Tag selector */
+/* h1{
+    color:brown;
+    font-style: italic;
+}  
+p{
+    color: blue;
+    font-family: 'Gill Sans';
+    font-size:large ;
+    font-weight:bolder;
+} */
+img{
+    opacity: 0.1;
+}
+.a{
+    font-family: 'Times New Roman', Times, serif;
+}
+.a{
+    font-family: cursive;
+}
+/* ================================================================= */
+
+
+/* ID selector */
+#id1{text-align: center;color: rgb(152, 224, 84);}
+#id2{text-align: center;color: rgb(240, 34, 113);}
+#ID3{text-align: center;color: rgb(189, 134, 243);}
+#abc{ text-align: center;}
+
+
+
+/* Class Selector */
+.DEMO{color: aqua;font-style: oblique;}
+.DEMO1{color: rgb(98, 0, 255);font-style:italic;}
+.a{color: rgb(83, 83, 122);}
+.b{color: rgb(0, 204, 255);}
+
+/* Grouping Selector */
+ol,ul{font-size: medium; color: crimson;text-underline-position: below;text-decoration: underline;margin-left: 41%;}
+
+h1,h2,h3,h4,p{text-align: center;}
+h1,h2,h3,h4{text-shadow: 1px 1px #fd810c;}
